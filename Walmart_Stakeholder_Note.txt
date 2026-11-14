@@ -1,0 +1,5 @@
+Hi Maria,
+
+Based on the data, about 12.7% of store-weeks had strong sales, meaning sales were at least 10% higher than the store's average. Thanksgiving had the highest chance of strong sales at 82%, while November and December had a 41% chance compared to 8.5% during other months.
+The holiday-only staffing rule was correct 27% of the time but missed 85% of strong weeks, while the November–December rule performed better with 41% precision and recall. Our Naive Bayes model did not perform better than the holiday rule because it failed to predict any strong 
+weeks in the 2012 test data, even though it had about 87% accuracy. One limitation is that the 2012 data does not include November or December, so I think we should be careful about relying on the model and focus more on preparing extra staff for Thanksgiving and the holiday season.
